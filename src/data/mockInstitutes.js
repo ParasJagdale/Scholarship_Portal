@@ -1,0 +1,32 @@
+export const mockInstitutes = [
+  {
+    id: "INS-001",
+    name: "Govt. Engineering College, Pune",
+    state: "Maharashtra",
+    district: "Pune",
+    code: "GECP2401",
+    principal: "Dr. V. Kulkarni",
+    mobile: "9876543201",
+    status: "Pending",
+  },
+  {
+    id: "INS-002",
+    name: "Saraswati Degree College, Nashik",
+    state: "Maharashtra",
+    district: "Nashik",
+    code: "SDCN1121",
+    principal: "Prof. M. Deshmukh",
+    mobile: "9876500012",
+    status: "Approved",
+  },
+  {
+    id: "INS-003",
+    name: "City Polytechnic, Mumbai",
+    state: "Maharashtra",
+    district: "Mumbai City",
+    code: "CPMU8891",
+    principal: "Ms. R. Fernandes",
+    mobile: "9823456789",
+    status: "Rejected",
+  },
+];
