@@ -14,25 +14,25 @@ import {
 export const roleCards = [
   {
     title: "Student",
-    path: "/auth/student-login",
+    to: "/auth/student-login",
     icon: GraduationCap,
     description: "Apply and track scholarships.",
   },
   {
     title: "Institute",
-    path: "/auth/institute-login",
+    to: "/auth/institute-login",
     icon: Building2,
     description: "Verify student applications.",
   },
   {
     title: "State Officer",
-    path: "/auth/state-login",
+    to: "/auth/state-login",
     icon: ShieldCheck,
     description: "Nodal scrutiny and approvals.",
   },
   {
     title: "Ministry Admin",
-    path: "/auth/ministry-login",
+    to: "/auth/ministry-login",
     icon: Landmark,
     description: "Final approvals and scheme governance.",
   },
