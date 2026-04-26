@@ -17,24 +17,32 @@ export const roleCards = [
     to: "/auth/student-login",
     icon: GraduationCap,
     description: "Apply and track scholarships.",
+    gradientStart: "#ec4899",
+    gradientEnd: "#f43f5e",
   },
   {
     title: "Institute",
     to: "/auth/institute-login",
     icon: Building2,
     description: "Verify student applications.",
+    gradientStart: "#a855f7",
+    gradientEnd: "#6d28d9",
   },
   {
     title: "State Officer",
     to: "/auth/state-login",
     icon: ShieldCheck,
     description: "Nodal scrutiny and approvals.",
+    gradientStart: "#3b82f6",
+    gradientEnd: "#06b6d4",
   },
   {
     title: "Ministry Admin",
     to: "/auth/ministry-login",
     icon: Landmark,
     description: "Final approvals and scheme governance.",
+    gradientStart: "#f59e0b",
+    gradientEnd: "#ff6b35",
   },
 ];
 
